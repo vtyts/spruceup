@@ -1,7 +1,7 @@
 .PHONY: env install clean
 
 env:
-	conda create -n spr python==3.11.*
+	conda create -n spruceup python==3.11.*
 
 install:
 	pip install .
