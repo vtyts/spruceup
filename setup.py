@@ -23,9 +23,9 @@ setup(
     include_package_data=True,
     python_requires='>=3.6.0, !=3.7.4',
     install_requires=[
-        'matplotlib==3.0.3',
-        'numpy==1.17',
-        'scipy==1.3.1',
+        'matplotlib>=3.0.3',
+        'numpy>=1.17',
+        'scipy>=1.3.1',
         'psutil==5.6.6',
         'tqdm==4.29.1',
         'treeswift==1.0.100',

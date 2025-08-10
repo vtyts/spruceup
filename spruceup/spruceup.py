@@ -218,7 +218,7 @@ def get_distances(aln_tuple, tree_dists, method, fraction, data_type):
     """
     aln_name, aln_dict = aln_tuple
     seqs_to_compare_to = random.sample(
-        aln_dict.items(), int(len(aln_dict.items()) * fraction)
+        list(aln_dict.items()), int(len(aln_dict.items()) * fraction)
     )
     if tree_dists == None:
         distances = [
